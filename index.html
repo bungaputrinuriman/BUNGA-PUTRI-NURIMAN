@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Bunga Putri Nuriman</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SPLASH SCREEN -->
+<div id="splash">
+  <div class="splash-word" id="splashWord">Hello</div>
+  <div class="splash-lang" id="splashLang">English</div>
+  <div class="splash-track"><div class="splash-fill" id="splashFill"></div></div>
+</div>
+
+<!-- TOP NAV -->
+<nav id="topnav">
+  <a href="#cover" class="logo">BungaPutriNuriman<span>.dev</span></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  <ul id="navList">
+    <li><a class="nav-link" href="#cover">Home</a></li>
+    <li><a class="nav-link" href="#tentang">About</a></li>
+    <li><a class="nav-link" href="#pengalaman">Experience</a></li>
+    <li><a class="nav-link" href="#proyek">Work</a></li>
+    <li><a class="nav-link nav-contact" href="#kontak">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- MOBILE MENU -->
+<div id="mobile-menu">
+  <a href="#cover">Home</a>
+  <a href="#tentang">About</a>
+  <a href="#pengalaman">Experience</a>
+  <a href="#proyek">Work</a>
+  <a href="#kontak" class="nav-contact-mobile">Contact</a>
+</div>
+
+<!-- COVER -->
+<section id="cover">
+  <div class="cover-corner tl"></div>
+  <div class="cover-corner tr"></div>
+  <div class="cover-corner bl"></div>
+  <div class="cover-corner br"></div>
+
+  <div class="cover-inner">
+    <div class="cover-title">welcome to my <em>portfolio</em></div>
+    <h1 class="cover-name">Bunga Putri<br>Nuriman</h1>
+    <div class="cover-rule"></div>
+    <div class="cover-marquee">
+      <div class="marquee-track">
+        <span>SOFTWARE ENGINEER</span><span class="sep">•</span>
+        <span>WEB DEVELOPER</span><span class="sep">•</span>
+        <span>APPLICATION DEVELOPER</span><span class="sep">•</span>
+        <span>UI/UX DESIGNER</span><span class="sep">•</span>
+        <span>INFORMATICS ENGINEERING STUDENT</span><span class="sep">•</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <div class="scroll-badge-wrap">
+      <svg class="scroll-badge" viewBox="0 0 100 100">
+        <path id="scrollCircle" d="M50,50 m-40,0 a40,40 0 1,1 80,0 a40,40 0 1,1 -80,0" fill="none"/>
+        <circle class="ring" cx="50" cy="50" r="40"/>
+        <text><textPath href="#scrollCircle">• SCROLL TO EXPLORE • SCROLL TO EXPLORE •</textPath></text>
+      </svg>
+      <span class="scroll-arrow">↓</span>
+    </div>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang">
+  <div class="sec-head">
+    <h2>About Me</h2>
+    <p>A quick introduction to who I am, what I do, and how to reach me.</p>
+  </div>
+
+  <div class="about-grid">
+    <div class="photo-wrap">
+      <div class="photo-frame">
+        <img src="/img/bunga.jpeg" alt="Foto Bunga Putri Nuriman">
+      </div>
+      <div class="photo-meta">
+        <div class="photo-name">Bunga Putri Nuriman</div>
+        <div class="photo-role">Informatics Engineering Student</div>
+      </div>
+    </div>
+
+    <div class="about-panel">
+      <div class="tab-row">
+        <button class="tab-btn active" data-tab="bio">About Me</button>
+        <button class="tab-btn" data-tab="skills">Skills</button>
+        <button class="tab-btn" data-tab="interpersonal">Interpersonal</button>
+      </div>
+
+      <div class="tab-panel active" id="tab-bio">
+        <p class="bio-text">I am an Informatics Engineering student with a passion for technology, software development, and digital product design. With an interest in Software Engineering, Web Development, and UI/UX Design, I enjoy transforming ideas into functional, intuitive, and meaningful digital experiences.</p>
+        <dl class="identity-grid">
+          <div><dt>Location</dt><dd>DKI Jakarta, South Jakarta</dd></div>
+          <div><dt>Email</dt><dd>bungaputrinuriman7@email.com</dd></div>
+          <div><dt>University</dt><dd>Pancasila University</dd></div>
+          <div><dt>LinkedIn</dt><dd>linkedin.com/in/bungaputrinuriman</dd></div>
+          <div><dt>GitHub</dt><dd>github.com/bungaputrinuriman</dd></div>
+        </dl>
+      </div>
+
+      <div class="tab-panel" id="tab-skills">
+        <div class="skill-columns">
+          <div class="skill-block">
+            <h3>Tools &amp; Software</h3>
+            <div class="tool-grid">
+              <div class="tool-chip"><span class="dot"></span>Visual Studio Code</div>
+              <div class="tool-chip"><span class="dot"></span>Google Colab</div>
+              <div class="tool-chip"><span class="dot"></span>Figma</div>
+              <div class="tool-chip"><span class="dot"></span>GitHub</div>
+              <div class="tool-chip"><span class="dot"></span>Android Studio</div>
+              <div class="tool-chip"><span class="dot"></span>WordPress</div>
+              <div class="tool-chip"><span class="dot"></span>Xampp</div>
+            </div>
+          </div>
+          <div class="skill-block">
+            <h3>Programming Languages</h3>
+            <div class="tool-grid">
+              <div class="tool-chip"><span class="dot"></span>Java</div>
+              <div class="tool-chip"><span class="dot"></span>Flutter (Dart)</div>
+              <div class="tool-chip"><span class="dot"></span>Python</div>
+              <div class="tool-chip"><span class="dot"></span>JavaScript</div>
+              <div class="tool-chip"><span class="dot"></span>HTML, CSS</div>
+              <div class="tool-chip"><span class="dot"></span>C++</div>
+              <div class="tool-chip"><span class="dot"></span>PHP</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="tab-interpersonal">
+        <div class="skill-block">
+          <h3>Interpersonal Skills</h3>
+          <div class="interpersonal-grid">
+            <div class="interpersonal-card"><span>Public Speaking</span></div>
+            <div class="interpersonal-card"><span>Teamwork</span></div>
+            <div class="interpersonal-card"><span>Leadership</span></div>
+            <div class="interpersonal-card"><span>Time Management</span></div>
+            <div class="interpersonal-card"><span>Problem Solving</span></div>
+            <div class="interpersonal-card"><span>Adaptability</span></div>
+            <div class="interpersonal-card"><span>Negotiation</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PENGALAMAN -->
+<section id="pengalaman">
+  <div class="sec-head">
+    <h2>Work Experience</h2>
+    <p>Professional experiences, freelance work, and internships I have undertaken.</p>
+  </div>
+
+  <div class="timeline">
+    <div class="tl-item">
+      <span class="tl-badge current">Current</span>
+      <div class="tl-role">Frontend Developer Intern</div>
+      <div class="tl-org">PROSTACKHUB</div>
+      <div class="tl-meta">July 2026 — August 2026 · Remote · Industrial Internship Programme</div>
+      <div class="tl-desc">Participating in a task-based Frontend Development Internship focused on building modern and responsive web applications. Developing portfolio-worthy frontend projects using HTML, CSS, JavaScript, and React while receiving technical guidance and code reviews from a dedicated mentor.</div>
+      <div class="tl-tags">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Responsive</span>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <span class="tl-badge current">Current</span>
+      <div class="tl-role">Freelance Web Developer</div>
+      <div class="tl-org">Aguna Course</div>
+      <div class="tl-meta">July 2026 — Present · Freelance · Remote</div>
+      <div class="tl-desc">Enhanced the visual appeal and user experience of the Aguna Course website to create a more engaging and user-friendly digital experience. Managed and updated website content according to ongoing business needs.</div>
+      <div class="tl-tags">
+        <span>Web Development</span><span>UI/UX</span><span>Content Management</span><span>Maintenance</span>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <span class="tl-badge done">Completed</span>
+      <div class="tl-role">Teaching Assistant – Algorithms and Programming Practicum</div>
+      <div class="tl-org">Universitas Pancasila</div>
+      <div class="tl-meta">September 2025 — January 2026 · Academic Experience · Jakarta</div>
+      <div class="tl-desc">Assisted lecturers in conducting Algorithms and Programming laboratory sessions for undergraduate students. Guided students in understanding fundamental programming concepts, algorithm design, debugging, and coding exercises.</div>
+      <div class="tl-tags">
+        <span>Algorithms</span><span>Programming</span><span>Debugging</span><span>Teaching</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORGANISASI -->
+<section id="organisasi">
+  <div class="sec-head">
+    <h2>Organizational Experience</h2>
+    <p>Leadership and organizational experiences that have shaped my teamwork, coordination, and management skills.</p>
+  </div>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-content">
+        <div class="tl-period">2026</div>
+        <div class="tl-role">Mentor</div>
+        <div class="tl-org">TECHNO IT 2026 — Universitas Pancasila</div>
+        <div class="tl-desc">Mentored student teams in developing mobile UI/UX solutions through six hybrid sessions. Provided guidance on design thinking, wireframing, prototyping, and presentation preparation.</div>
+      </div>
+      <div class="tl-photo">
+        <img src="/img/mentor.jpg" alt="TECHNO IT 2026 Mentor">
+        <span>TECHNO IT 2026</span>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-content">
+        <div class="tl-period">2025 — Present</div>
+        <div class="tl-role">Head Secretary</div>
+        <div class="tl-org">HOPE Batch 5</div>
+        <div class="tl-desc">Managed secretarial activities, documentation, and administrative tasks to support organizational operations. Coordinated task distribution and monitored team progress through Monitoring and Evaluation activities.</div>
+      </div>
+      <div class="tl-photo">
+        <img src="/img/hope.png" alt="HOPE Batch 5">
+        <span>HOPE Batch 5</span>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-content">
+        <div class="tl-period">2023 — 2024</div>
+        <div class="tl-role">Secretary</div>
+        <div class="tl-org">OSIS</div>
+        <div class="tl-desc">Managed administrative activities, organizational documentation, and correspondence. Assisted in preparing meeting records and coordinating communication.</div>
+      </div>
+      <div class="tl-photo">
+        <img src="/img/osis.png" alt="OSIS">
+        <span>OSIS</span>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-content">
+        <div class="tl-period">2024</div>
+        <div class="tl-role">Treasurer</div>
+        <div class="tl-org">ArtQtion 2.0 Event</div>
+        <div class="tl-desc">Managed event finances, including recording income and expenses, organizing financial documentation, and monitoring the event budget.</div>
+      </div>
+      <div class="tl-photo">
+        <img src="/img/artq.png" alt="ArtQtion 2.0">
+        <span>ArtQtion 2.0</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PELATIHAN -->
+<section id="pelatihan">
+  <div class="sec-head">
+    <h2>Training &amp; Workshops</h2>
+    <p>Professional training and learning experiences that have supported my technical development.</p>
+  </div>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-content">
+        <div class="tl-period">August 2025</div>
+        <div class="tl-role">Software Engineering Bootcamp</div>
+        <div class="tl-org">RevoU</div>
+        <div class="tl-desc">Learned core software engineering and website development concepts. Developed practical skills in HTML5, CSS, JavaScript, and Responsive Web Design while applying software development and problem-solving principles.</div>
+      </div>
+      <div class="tl-photo">
+        <img src="/img/revou.png" alt="RevoU Bootcamp">
+        <span>RevoU Bootcamp</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PENGHARGAAN -->
+<section id="penghargaan">
+  <div class="sec-head">
+    <h2>Awards &amp; Achievements</h2>
+    <p>Recognition and achievements that reflect my academic performance and innovative thinking.</p>
+  </div>
+  <div class="award-grid">
+    <div class="award-card">
+      <div class="award-thumb">
+        <img src="/img/penghargaan.png" alt="Best Innovation Idea Award">
+      </div>
+      <div class="award-icon">🏆</div>
+      <div class="award-content">
+        <div class="award-year">2025</div>
+        <h3>Best Innovation Idea</h3>
+        <div class="award-org">Tecno IT Event</div>
+        <p>Received the Best Innovation Idea award for developing a creative, solution-oriented concept with strong implementation potential in the field of information technology.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROYEK -->
+<section id="proyek">
+  <div class="sec-head">
+    <h2>Selected Projects</h2>
+    <p>A collection of projects that reflect my experience in web development, UI/UX design, application development, and building practical digital solutions.</p>
+  </div>
+
+  <div class="project-grid">
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="/img/foodrescue.png" alt="Food Rescue project">
+        <span class="project-status">FoodRescue</span>
+      </div>
+      <div class="project-content">
+        <h3>Food Rescue</h3>
+        <p>Innovative digital platform that connects food donors with beneficiary communities through a volunteer-powered network for distributing surplus food to those in need.</p>
+        <div class="tech-label">Technologies Used</div>
+        <div class="tech-badges">
+          <span class="tech-badge">HTML</span>
+          <span class="tech-badge">CSS</span>
+          <span class="tech-badge">JS</span>
+          <span class="tech-badge">UI/UX</span>
+        </div>
+        <a class="github-link" href="https://github.com/bungaputrinuriman/SEFEST26WEBDESIGN_ZenByte" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          View on GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="/img/MTJB.png" alt="MyTahfidzJourney">
+        <span class="project-status">MTJB</span>
+      </div>
+      <div class="project-content">
+        <h3>MyTahfidzJourney</h3>
+        <p>A web development project designed to support and manage Tahfidz learning activities through a digital platform. Focused on developing functional web features and creating a user-friendly learning experience.</p>
+        <div class="tech-label">Technologies Used</div>
+        <div class="tech-badges">
+          <span class="tech-badge">HTML</span>
+          <span class="tech-badge">CSS</span>
+          <span class="tech-badge">JS</span>
+        </div>
+        <a class="github-link" href="https://github.com/bungaputrinuriman/MTJB" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          View on GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="/img/SMARTPAY.png" alt="SMARTPAY">
+        <span class="project-status">SmartPay</span>
+      </div>
+      <div class="project-content">
+        <h3>SMARTPAY</h3>
+        <p>A Java-based digital payment application developed to support seamless digital payment processes. Focused on application development, user interface implementation, and functionality testing.</p>
+        <div class="tech-label">Technologies Used</div>
+        <div class="tech-badges">
+          <span class="tech-badge">JAVA</span>
+          <span class="tech-badge">APP</span>
+          <span class="tech-badge">UI</span>
+        </div>
+        <a class="github-link" href="https://github.com/bungaputrinuriman/SMARTPAY" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          View on GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="/img/laundry.png" alt="Intan Express Laundry">
+        <span class="project-status">Intan Laundry</span>
+      </div>
+      <div class="project-content">
+        <h3>Intan Express Laundry E-Catalog</h3>
+        <p>A web-based e-catalog platform for an MSME laundry business that helps customers explore services, manage their shopping cart, and complete orders through instant checkout via WhatsApp integration.</p>
+        <div class="tech-label">Technologies Used</div>
+        <div class="tech-badges">
+          <span class="tech-badge">TS</span>
+          <span class="tech-badge">JS</span>
+          <span class="tech-badge">CSS</span>
+          <span class="tech-badge">PNPM</span>
+        </div>
+        <a class="github-link" href="https://github.com/bungaputrinuriman/intan-express-laundry-main" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          View on GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="/img/UYEN.png" alt="Uyen Frozen">
+        <span class="project-status">Uyen Frozen</span>
+      </div>
+      <div class="project-content">
+        <h3>Uyen Frozen E-Commerce Website</h3>
+        <p>A web-based e-commerce platform that offers premium frozen food, featuring authentic Pontianak-style fried taro. Designed with an elegant interface and complete features to provide a convenient shopping experience.</p>
+        <div class="tech-label">Technologies Used</div>
+        <div class="tech-badges">
+          <span class="tech-badge">TAILWIND</span>
+          <span class="tech-badge">JS</span>
+          <span class="tech-badge">HTML</span>
+          <span class="tech-badge">CSS</span>
+        </div>
+        <a class="github-link" href="https://github.com/bungaputrinuriman/Uyen-Frozen" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak">
+  <div class="sec-head" style="margin-left:auto; margin-right:auto; text-align:center;">
+    <h2>Get in Touch</h2>
+    <p style="margin-left:auto; margin-right:auto;">Have a question or want to collaborate? Feel free to send me a message.</p>
+  </div>
+  <form class="contact-form" action="https://formspree.io/f/mdaqgpzp" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Bunga Putri Nuriman. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
