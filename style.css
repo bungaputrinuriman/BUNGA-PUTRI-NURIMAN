@@ -786,6 +786,38 @@ section {
 }
 
 /* ============================================================
+   SOCIAL LINK STYLING
+   ============================================================ */
+.social-link {
+  color: var(--gold);
+  text-decoration: none;
+  transition: color 0.25s ease, border-bottom 0.25s ease;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+}
+
+.social-link:hover {
+  color: var(--teal);
+  border-bottom-color: var(--teal);
+}
+
+.social-link:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+}
+
+/* Untuk identity-grid dd yang berisi link */
+.identity-grid dd .social-link {
+  word-break: break-all;
+}
+
+@media (max-width: 480px) {
+  .social-link {
+    font-size: 0.75rem;
+  }
+}
+
+/* ============================================================
    TIMELINE
    ============================================================ */
 .timeline {
