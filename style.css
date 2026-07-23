@@ -72,7 +72,7 @@ img {
 }
 
 /* ============================================================
-   SPLASH SCREEN
+   SPLASH SCREEN 
    ============================================================ */
 #splash {
   position: fixed;
@@ -84,6 +84,21 @@ img {
   justify-content: center;
   flex-direction: column;
   transition: opacity 0.7s ease, visibility 0.7s ease;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh; /* Untuk mobile modern */
+  min-height: -webkit-fill-available; /* Untuk iOS Safari */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Tambahan untuk iOS Safari */
+@supports (-webkit-touch-callout: none) {
+  #splash {
+    height: -webkit-fill-available;
+  }
 }
 
 #splash.hide {
