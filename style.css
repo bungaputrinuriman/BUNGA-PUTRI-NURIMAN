@@ -1249,6 +1249,7 @@ section {
   }
 }
 
+
 /* ============================================================
    AWARDS
    ============================================================ */
@@ -1266,6 +1267,8 @@ section {
 }
 
 .award-card {
+  max-width: 360px;
+  margin: 0 auto;
   width: 100%;
   background: var(--card);
   border-radius: 8px;
@@ -1346,16 +1349,18 @@ section {
 }
 
 @media (max-width: 768px) {
-  .award-grid {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 1.2rem;
+  .award-card {
+    max-width: 320px;
   }
 }
 
 @media (max-width: 480px) {
   .award-grid {
-    grid-template-columns: 1fr;
-    max-width: 340px;
+    max-width: 380px;
+  }
+  
+  .award-card {
+    max-width: 100%;
   }
 }
 
